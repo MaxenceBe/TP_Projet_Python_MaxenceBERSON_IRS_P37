@@ -1,0 +1,22 @@
+{
+    "203.0.113.5": {
+        "echecs": 4,
+        "reussites": 2
+    },
+    "192.168.1.12": {
+        "echecs": 3,
+        "reussites": 1
+    },
+    "198.51.100.23": {
+        "echecs": 3,
+        "reussites": 1
+    },
+    "10.0.0.10": {
+        "echecs": 1,
+        "reussites": 1
+    },
+    "192.0.2.44": {
+        "echecs": 1,
+        "reussites": 1
+    }
+}

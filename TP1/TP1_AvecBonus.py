@@ -2,7 +2,7 @@
 import random
 
 # Chargement des mots de passe faibles depuis le fichier texte
-with open("mots_de_passe.txt", "r") as fichier:
+with open("TP1_passe.txt", "r") as fichier:
     mots_de_passe_faibles = [ligne.strip() for ligne in fichier if ligne.strip()]
 
 # Sélection d'un mot de passe aléatoire

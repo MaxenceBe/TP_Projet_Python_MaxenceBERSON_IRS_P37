@@ -1,0 +1,17 @@
+Il faut se placer dans le dossier contenant le script python.
+
+Ensuite en cmd, taper : 
+
+(Changement des ports pour début à 100 et fin à 1000 pour avoir plusieurs retours dans le rapport)
+
+Ports ouverts: 
+python scanner_tp3.py --ip 127.0.0.1 --start-port 20 --end-port 100
+
+Ports fermés : 
+python scanner_tp3.py --ip 127.0.0.1 --start-port 20 --end-port 100 --verbose
+
+Multi-thread :
+python scanner_tp3.py --ip 127.0.0.1 --start-port 20 --end-port 100 --multithread
+
+Commande complète : 
+python scanner_tp3.py --ip 127.0.0.1 --start-port 20 --end-port 100 --timeout 0.3 --verbose --multithread --output rapport_complet_test.txt
